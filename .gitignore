@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data and papers (too large for git)
+data/
+papers/
+
+# Results - keep figures, ignore intermediate
+results/temp/
+*.pkl
+*.h5
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
